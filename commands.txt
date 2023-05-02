@@ -1,0 +1,4 @@
+auth\Scripts\Activate.ps1
+$env:FLASK_APP = "project"
+$env:FLASK_DEBUG = "1"
+flask run
