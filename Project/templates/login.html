@@ -1,0 +1,105 @@
+<!-- {% extends "base.html" %} -->
+
+{% block content %}
+<!-- <div class="column is-4 is-offset-4">
+    <h3 class="title">Login</h3>
+    <div class="box">
+        <form method="POST" action="/login">
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="email" name="email" placeholder="Your Email" autofocus="">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="password" name="password" placeholder="Your Password">
+                </div>
+            </div>
+            <div class="field">
+                <label class="checkbox">
+                    <input type="checkbox" name="remember">
+                    Remember me
+                </label>
+            </div>
+            <button class="button is-block is-info is-large is-fullwidth">Login</button>
+        </form>
+    </div>
+</div> -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Linking external style.css -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "icon" href = "{{url_for('static',filename='to-do-list.png')}}" type = "image/x-icon" title="to do list icons">
+    <title>Login</title>
+  </head>
+  <body class=" bg-nav">
+      <nav class="navbar">
+          <a href="" class="navbar-brand text-light" style="font-size: 25px"> <font face="Garamond">Ceasy</font></a>
+      </nav>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <h1 class="text-light display-4 mt-130" style="font-size: 65px">
+                    <font face="Garamond "><span>&nbsp &nbsp &nbsp Welcome to Ceasy:</span><br>
+                         Your own Personal Manager</font></h1>
+              </div>
+              <div class="col-md-4">
+                  <div class="card mt-130">
+                      <div class="card-body">
+
+                          {% with messages = get_flashed_messages() %}
+                          {% if messages %}
+                            <div class="alert alert-danger" role="alert">
+                              {{ messages[0] }}
+                            </div>
+                          {% endif %}
+                          {% endwith %}
+
+                          <form method="POST" action="/login">
+                            <div class="row mb-3">
+                              <label for="inputEmail3" class="col-sm-4 col-form-label">Username</label>
+                              <div class="col-sm-8">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                              </div>
+                            </div>
+
+                            <div class="row mb-3">
+                              <label for="inputPassword3" class="col-sm-4 col-form-label">Password</label>
+                              <div class="col-sm-8">
+                                <input type="password" class="form-control" id="password" name="password" minlength="8" required placeholder="Password">
+                              </div>
+                            </div>
+
+                            <div class="field">
+                              <label class="checkbox">
+                                  <input type="checkbox" name="remember">
+                                  Remember me
+                              </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block btn-lg">Sign in</button>
+                          </form>
+                          <p class="mt-2">Not a member?<a href="/signup">Create Account</a></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+{% endblock %}
