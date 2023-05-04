@@ -1,6 +1,0 @@
-## These are the commands used in the terminal for proper functioning of the project ## 
-
-auth\Scripts\Activate.ps1
-$env:FLASK_APP = "project"
-$env:FLASK_DEBUG = "1"
-flask run
