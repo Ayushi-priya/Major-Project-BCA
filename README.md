@@ -4,53 +4,54 @@
 A full-stack task management web application built using Flask that allows students to manage academic tasks efficiently. The application includes secure user authentication and personalized CRUD operations for task handling.
 
 
-🚀 Features
+**🚀 Features**
  
-   🔐 User Authentication
-
-     1. Registration and login functionality
-     
-     2. Passwords securely stored using hashing (werkzeug.security)
-     
-     3. Session-based login system to ensure secure access
-
-   📋 Task Management (CRUD)
-
-     1. Create, Read, Update, Delete academic tasks
-
-     2. Each task linked to a specific user — access control implemented
-
-     3. Tasks displayed in a clean, minimal dashboard UI
-
-   🎨 Responsive Frontend
-
-     1. Built using HTML, CSS, and Jinja2 templating
-
-     2. Form validation and user-friendly interface
-
-   🔒 Security
-
-     1. Session handling and access validation
-
-     2. Route-level security to prevent unauthorized data access
-
-
-🧠 Tech Stack
-
-| Layer           | Technology                    |
-| --------------- | ----------------------------- |
-| Framework       | Flask (Python)                |
-| Frontend        | HTML, CSS, Jinja2, JavaScript |
-| Database        | SQLite (via SQLAlchemy ORM)   |
-| Auth & Security | Werkzeug, Flask Sessions      |
+    🔐 User Authentication
+ 
+      1. Registration and login functionality
+      
+      2. Passwords securely stored using hashing (werkzeug.security)
+      
+      3. Session-based login system to ensure secure access
+ 
+    📋 Task Management (CRUD)
+ 
+      1. Create, Read, Update, Delete academic tasks
+ 
+      2. Each task linked to a specific user — access control implemented
+ 
+      3. Tasks displayed in a clean, minimal dashboard UI
+ 
+    🎨 Responsive Frontend
+ 
+      1. Built using HTML, CSS, and Jinja2 templating
+ 
+      2. Form validation and user-friendly interface
+ 
+    🔒 Security
+ 
+      1. Session handling and access validation
+ 
+      2. Route-level security to prevent unauthorized data access
 
 
-🗂️ Project Structure
+**🧠 Tech Stack**
+
+
+   | Layer           | Technology                    |
+   | --------------- | ----------------------------- |
+   | Framework       | Flask (Python)                |
+   | Frontend        | HTML, CSS, Jinja2, JavaScript |
+   | Database        | SQLite (via SQLAlchemy ORM)   |
+   | Auth & Security | Werkzeug, Flask Sessions      |
+
+
+**🗂️ Project Structure**
 
 ![image](https://github.com/user-attachments/assets/fe8b0e5a-213e-49e7-b33c-004a945d75ff)
 
 
-✅ Future Improvements
+**✅ Future Improvements**
 
    1. Email reminders or push notifications for upcoming tasks
 
@@ -61,8 +62,10 @@ A full-stack task management web application built using Flask that allows stude
    4. REST API with JSON responses for frontend frameworks or mobile integration
    
    5. Deployment on Heroku, Render, or AWS EC2
+      
 
-📷 Screenshots 
+**📷 Screenshots **
+
 
 •	Home page:
 
