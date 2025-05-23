@@ -5,34 +5,34 @@ A full-stack task management web application built using Flask that allows stude
 
 
 **🚀 Features**
+
+🔐 User Authentication
  
-    🔐 User Authentication
+1. Registration and login functionality
+
+2. Passwords securely stored using hashing (werkzeug.security)
+
+3. Session-based login system to ensure secure access
  
-      1. Registration and login functionality
-      
-      2. Passwords securely stored using hashing (werkzeug.security)
-      
-      3. Session-based login system to ensure secure access
+📋 Task Management (CRUD)
+
+ 1. Create, Read, Update, Delete academic tasks
+
+ 2. Each task linked to a specific user — access control implemented
+
+ 3. Tasks displayed in a clean, minimal dashboard UI
+
+🎨 Responsive Frontend
+
+ 1. Built using HTML, CSS, and Jinja2 templating
+
+ 2. Form validation and user-friendly interface
+
+🔒 Security
  
-    📋 Task Management (CRUD)
- 
-      1. Create, Read, Update, Delete academic tasks
- 
-      2. Each task linked to a specific user — access control implemented
- 
-      3. Tasks displayed in a clean, minimal dashboard UI
- 
-    🎨 Responsive Frontend
- 
-      1. Built using HTML, CSS, and Jinja2 templating
- 
-      2. Form validation and user-friendly interface
- 
-    🔒 Security
- 
-      1. Session handling and access validation
- 
-      2. Route-level security to prevent unauthorized data access
+1. Session handling and access validation
+
+2. Route-level security to prevent unauthorized data access
 
 
 **🧠 Tech Stack**
@@ -64,7 +64,7 @@ A full-stack task management web application built using Flask that allows stude
    5. Deployment on Heroku, Render, or AWS EC2
       
 
-**📷 Screenshots **
+**📷 Screenshots**
 
 
 •	Home page:
