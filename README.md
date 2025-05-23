@@ -1,42 +1,46 @@
 # Major-Project-BCA
 🗓️ Web-Based Task Scheduler for Students
+
 A full-stack task management web application built using Flask that allows students to manage academic tasks efficiently. The application includes secure user authentication and personalized CRUD operations for task handling.
 
 🚀 Features
-🔐 User Authentication
+ 
+  🔐 User Authentication
 
-Registration and login functionality
+     1. Registration and login functionality
+     
+     2. Passwords securely stored using hashing (werkzeug.security)
+     
+     3. Session-based login system to ensure secure access
 
-Passwords securely stored using hashing (werkzeug.security)
+  📋 Task Management (CRUD)
 
-Session-based login system to ensure secure access
+     1. Create, Read, Update, Delete academic tasks
 
-📋 Task Management (CRUD)
+     2. Each task linked to a specific user — access control implemented
 
-Create, Read, Update, Delete academic tasks
+     3. Tasks displayed in a clean, minimal dashboard UI
 
-Each task linked to a specific user — access control implemented
+   🎨 Responsive Frontend
 
-Tasks displayed in a clean, minimal dashboard UI
+     1. Built using HTML, CSS, and Jinja2 templating
 
-🎨 Responsive Frontend
+     2. Form validation and user-friendly interface
 
-Built using HTML, CSS, and Jinja2 templating
+   🔒 Security
 
-Form validation and user-friendly interface
+     1. Session handling and access validation
 
-🔒 Security
-
-Session handling and access validation
-
-Route-level security to prevent unauthorized data access
+     2. Route-level security to prevent unauthorized data access
 
 🧠 Tech Stack
-Layer	Technology
-Framework	Flask (Python)
-Frontend	HTML, CSS, Jinja2, JavaScript
-Database	SQLite (via SQLAlchemy ORM)
-Auth & Security	Werkzeug, Flask Sessions
+
+| Layer           | Technology                    |
+| --------------- | ----------------------------- |
+| Framework       | Flask (Python)                |
+| Frontend        | HTML, CSS, Jinja2, JavaScript |
+| Database        | SQLite (via SQLAlchemy ORM)   |
+| Auth & Security | Werkzeug, Flask Sessions      |
 
 🗂️ Project Structure
 
@@ -45,15 +49,15 @@ Auth & Security	Werkzeug, Flask Sessions
 
 ✅ Future Improvements
 
-Email reminders or push notifications for upcoming tasks
+   1. Email reminders or push notifications for upcoming tasks
 
-Task categorization by subject or priority
-
-Role-based access (admin vs. student)
-
-REST API with JSON responses for frontend frameworks or mobile integration
-
-Deployment on Heroku, Render, or AWS EC2
+   2. Task categorization by subject or priority
+   
+   3. Role-based access (admin vs. student)
+   
+   4. REST API with JSON responses for frontend frameworks or mobile integration
+   
+   5. Deployment on Heroku, Render, or AWS EC2
 
 📷 Screenshots 
 
