@@ -3,9 +3,10 @@
 
 A full-stack task management web application built using Flask that allows students to manage academic tasks efficiently. The application includes secure user authentication and personalized CRUD operations for task handling.
 
+
 🚀 Features
  
-  🔐 User Authentication
+   🔐 User Authentication
 
      1. Registration and login functionality
      
@@ -13,7 +14,7 @@ A full-stack task management web application built using Flask that allows stude
      
      3. Session-based login system to ensure secure access
 
-  📋 Task Management (CRUD)
+   📋 Task Management (CRUD)
 
      1. Create, Read, Update, Delete academic tasks
 
@@ -33,6 +34,7 @@ A full-stack task management web application built using Flask that allows stude
 
      2. Route-level security to prevent unauthorized data access
 
+
 🧠 Tech Stack
 
 | Layer           | Technology                    |
@@ -42,9 +44,10 @@ A full-stack task management web application built using Flask that allows stude
 | Database        | SQLite (via SQLAlchemy ORM)   |
 | Auth & Security | Werkzeug, Flask Sessions      |
 
+
 🗂️ Project Structure
 
-![image](https://github.com/user-attachments/assets/1886bfbd-5d57-4aa4-a728-372c2a64ae17)
+![image](https://github.com/user-attachments/assets/fe8b0e5a-213e-49e7-b33c-004a945d75ff)
 
 
 ✅ Future Improvements
